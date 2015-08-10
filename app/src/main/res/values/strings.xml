@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ActivityTransictions</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_datails">Datails</string>
+
+    <string name="transition_name_name">transition:NAME</string>
+    <string name="transition_name_circle">transition:CIRCLE</string>
+    <string name="transition_name_phone">transition:PHONE</string>
+
+</resources>
