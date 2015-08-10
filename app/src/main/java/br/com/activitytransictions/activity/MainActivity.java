@@ -17,7 +17,7 @@ import br.com.activitytransictions.adapter.DataManager;
 import br.com.activitytransictions.listener.RecyclerClickListener;
 import br.com.activitytransictions.model.Contact;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,5 +78,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onDrawerItemSelected(View view, int position) {
+
     }
 }
